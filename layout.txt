@@ -1,20 +1,20 @@
-vb    3.3
-c13   G
-c14   5
-c15   b9
-a0    b8
-a1    b7
-a2    b6
-a3    b5
-a4    b4
-a5    b3
-a6    a15
-a7    a12
-b0    a11
-b1    a10
-b10   a9
-b11   a8
-R     b15
-3.3   b14
-G     b13
-G     b12
+                  vb    3.3
+         sys_led  c13   G
+                  c14   5
+                  c15   b9
+             pwm  a0    b8
+             pwm  a1    b7  
+             pwm  a2    b6  
+             pwm  a3    b5
+                  a4    b4
+         spi_clk  a5    b3
+        spi_miso  a6    a15
+        spi_mosi  a7    a12
+                  b0    a11   pwm
+                  b1    a10   pwm
+         i2c_scl  b10   a9    pwm
+         i2c_sda  b11   a8    pwm
+                  R     b15
+                  3.3   b14
+                  G     b13
+                  G     b12
